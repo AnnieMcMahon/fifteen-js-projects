@@ -1,8 +1,8 @@
 # Fifteen JavaScript Projects
 I used the starter code and step-by-step video from John Smilga to create fifteen simple JavaScript projects:
-[https://www.vanillajavascriptprojects.com/] (https://www.vanillajavascriptprojects.com/)
-[https://github.com/john-smilga/javascript-basic-projects] (GitHub Page - Starter Code)
-[https://www.youtube.com/watch?v=3PHXvlpOkf4&t=421s] (YouTube Video)
+[https://www.vanillajavascriptprojects.com/](https://www.vanillajavascriptprojects.com/)
+[https://github.com/john-smilga/javascript-basic-projects](GitHub Page - Starter Code)
+[https://www.youtube.com/watch?v=3PHXvlpOkf4&t=421s](YouTube Video)
 
 I then refactored some of the code to JS6 and created a main page to access all those projects easily, as well as a global CSS page to eliminate redundant code.
 
