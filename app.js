@@ -1,4 +1,6 @@
 const projectBtns = document.querySelectorAll('.project-btn');
+const resourceBtn = document.querySelector('.resource-btn');
+const resourcesDiv = document.querySelector('.resources');
 
 let projectNumber = 1;
 let destinations = [];
@@ -22,3 +24,8 @@ projectBtns.forEach(project => {
     window.open(webpage[0].destination);
   })
 });
+
+resourceBtn.addEventListener('click', () => {
+  resourcesDiv.classList.toggle('show-content');
+})
+

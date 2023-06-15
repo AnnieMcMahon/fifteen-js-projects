@@ -1,42 +1,62 @@
 .page {
-  padding: 1rem 0;
-  background-color:rgb(195, 193, 196);
+  padding: 1rem 0 2rem 0;
+  background-color:rgb(240, 214, 165);
 }
 
 .title {
   text-align: center;
   margin-bottom: 2rem;
-  color:rgb(35, 9, 60);
+  color:rgb(59, 28, 89)
 }
 
 .btn-container {
   width: 100%;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.project-btn {
+.project-btn, .resource-btn {
   background: transparent;
   border-color: var(--clr-gold);
   font-size: 1rem;
   text-transform: capitalize;
-  margin: 1rem;
+  margin: 0.5rem 0.8rem;
   letter-spacing: 1px;
   border-radius: 0.75rem;
-  padding: 0.375rem 0.75rem;
+  padding: 0.25rem 0.5rem;
   color: var(--clr-gold);
   cursor: pointer;
   transition: var(--transition);
-  width: 20rem;
   height: 4rem;
-  background-color: rgb(35, 9, 60);
   color: white;
-
 }
-.project-btn:hover {
+
+.project-btn {
+  background-color:rgb(59, 28, 89);
+  width: 20rem;
+}
+
+.resource-btn {
+  background-color: rgb(178, 127, 34);
+  width: 40rem;
+}
+
+.project-btn:hover, .resource-btn:hover {
   background: white;
-  color: rgb(35, 9, 60);
+  color:rgb(59, 28, 89);
+}
+
+.resources {
+  display: none;
+}
+
+.resources img {
+  width: 100%;
+}
+
+.show-content {
+  display: block;
 }
 
